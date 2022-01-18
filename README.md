@@ -1,7 +1,5 @@
 # elk
 
-This is a test to trigger a build.
-
 Welcome to your new module. A short overview of the generated parts can be found
 in the [PDK documentation][1].
 

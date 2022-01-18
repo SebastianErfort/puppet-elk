@@ -29,6 +29,21 @@ group :system_tests do
   gem "puppet-module-posix-system-r#{minor_version}", '~> 1.0', require: false, platforms: [:ruby]
   gem "puppet-module-win-system-r#{minor_version}", '~> 1.0',   require: false, platforms: [:mswin, :mingw, :x64_mingw]
 end
+group :acceptance do
+  gem "rspec-puppet"
+  gem "rspec-puppet-facts"
+  gem "beaker-rspec"
+  gem "beaker-vagrant"
+  gem "beaker-facter"
+  gem "beaker_spec_helper"
+  gem "beaker-puppet"
+  gem "beaker-puppet_install_helper"
+  gem "beaker-module_install_helper"
+  gem "puppetlabs_spec_helper"
+  # gem "puppet_module_spec_helper"
+  # gem "vagrant-puppet-fact-generator"
+  # gem "vagrant-serverspec"
+end
 
 puppet_version = ENV['PUPPET_GEM_VERSION']
 facter_version = ENV['FACTER_GEM_VERSION']
