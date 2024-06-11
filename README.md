@@ -1,4 +1,9 @@
-# elk
+# LinkedIn Learning - Puppet Essential Training
+
+instructor:: Josh Samuelson
+
+
+## elk
 
 Welcome to your new module. A short overview of the generated parts can be found
 in the [PDK documentation][1].
@@ -6,7 +11,7 @@ in the [PDK documentation][1].
 The README template below provides a starting point with details about what
 information to include in your README.
 
-## Table of Contents
+### Table of Contents
 
 1. [Description](#description)
 1. [Setup - The basics of getting started with elk](#setup)
@@ -17,7 +22,7 @@ information to include in your README.
 1. [Limitations - OS compatibility, etc.](#limitations)
 1. [Development - Guide for contributing to the module](#development)
 
-## Description
+### Description
 
 Briefly tell users why they might want to use your module. Explain what your
 module does and what kind of problems users can solve with it.
@@ -25,9 +30,9 @@ module does and what kind of problems users can solve with it.
 This should be a fairly short description helps the user decide if your module
 is what they want.
 
-## Setup
+### Setup
 
-### What elk affects **OPTIONAL**
+#### What elk affects **OPTIONAL**
 
 If it's obvious what your module touches, you can skip this section. For
 example, folks can probably figure out that your mysql_instance module affects
@@ -41,7 +46,7 @@ mention:
 * Dependencies that your module automatically installs.
 * Warnings or other important notices.
 
-### Setup Requirements **OPTIONAL**
+#### Setup Requirements **OPTIONAL**
 
 If your module requires anything extra before setting up (pluginsync enabled,
 another module, etc.), mention it here.
@@ -49,13 +54,13 @@ another module, etc.), mention it here.
 If your most recent release breaks compatibility or requires particular steps
 for upgrading, you might want to include an additional "Upgrading" section here.
 
-### Beginning with elk
+#### Beginning with elk
 
 The very basic steps needed for a user to get the module up and running. This
 can include setup steps, if necessary, or it can be an example of the most basic
 use of the module.
 
-## Usage
+### Usage
 
 Include usage examples for common use cases in the **Usage** section. Show your
 users how to use your module to solve problems, and be sure to include code
@@ -63,7 +68,7 @@ examples. Include three to five examples of the most important or common tasks a
 user can accomplish with your module. Show users how to accomplish more complex
 tasks that involve different types, classes, and functions working in tandem.
 
-## Reference
+### Reference
 
 This section is deprecated. Instead, add reference information to your code as
 Puppet Strings comments, and then use Strings to generate a REFERENCE.md in your
@@ -85,28 +90,28 @@ For each element (class, defined type, function, and so on), list:
 For example:
 
 ```
-### `pet::cat`
+#### `pet::cat`
 
-#### Parameters
+##### Parameters
 
-##### `meow`
+###### `meow`
 
 Enables vocalization in your cat. Valid options: 'string'.
 
 Default: 'medium-loud'.
 ```
 
-## Limitations
+### Limitations
 
 In the Limitations section, list any incompatibilities, known issues, or other
 warnings.
 
-## Development
+### Development
 
 In the Development section, tell other users the ground rules for contributing
 to your project and how they should submit their work.
 
-## Release Notes/Contributors/Etc. **Optional**
+### Release Notes/Contributors/Etc. **Optional**
 
 If you aren't using changelog, put your release notes here (though you should
 consider using changelog). You can also add any additional sections you feel are
